@@ -1,0 +1,32 @@
+
+
+.red{
+    color: #f00e0e;
+}
+
+.yellow{
+    color: #F28C28;
+}
+
+.green{
+    color: #07DA0F;
+}
+.fts-5
+{
+    /* font-size: 3.4rem !important; */
+    font-size: calc(2rem + 1.5vw) !important; 
+}
+
+.m-bot
+{
+    margin-top: 0;
+    margin-bottom: 0.5rem !important;
+}
+    /* font-size: calc(1.7rem + 1.5vw) !important; */
+
+.fs-l
+{
+        font-size: calc(3.8rem + 1.5vw) !important;
+        color: #07DA0F; 
+}
+    /* font-size: calc(1.375rem + 1.5vw)!important; */

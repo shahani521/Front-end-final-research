@@ -1,0 +1,87 @@
+
+.buttonList
+{
+    display: inline;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.buttonList__button:first-child,.buttonList__button:last-child
+{
+    background-color: white ;
+    color: #2C68EF;
+    border: 1px solid rgba(100, 100, 111, 0.2);
+}
+
+
+.buttonList__button:hover:first-child,.buttonList__button:last-child:hover
+{
+    background-color: #2C68EF;
+    color: white;
+    border: 1px solid rgba(100, 100, 111, 0.2);
+    /* font-weight: 600; */
+}
+
+
+.active{
+    background-color: #2C68EF !important;
+    color: white !important;
+    border: 1px solid rgba(100, 100, 111, 0.2) !important;
+    font-weight: 600;
+}
+
+
+.buttonList__button
+{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 1px solid rgba(100, 100, 111, 0.2);
+    margin: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.buttonList__button:disabled,.buttonList__button:disabled:hover
+{
+    background-color: rgb(165, 165, 165);
+    color: #ffffff;
+    border: 1px solid rgba(100, 100, 111, 0.2);
+    /* font-weight: 600; */
+}
+
+@media screen and (max-width: 500px) {
+    .buttonList__button
+{
+    display: inline-flex;
+    width: 35px;
+    height: 35px;
+    color: black;
+    text-align: center;
+    position: relative;
+    border: 1px solid rgba(100, 100, 111, 0.2);
+    margin: 5px;
+    border-radius: 50%;
+    background-color: #fff;
+    font-size: 0.7rem;
+}
+/* .mbot-4
+{
+    margin-bottom: -4rem;
+} */
+
+}
+  
+    
